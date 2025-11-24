@@ -1,0 +1,21 @@
+# Dependências
+/node_modules
+
+# Resultados de compilação do TypeScript
+/dist
+
+# Caches e logs do sistema
+.DS_Store
+npm-debug.log
+yarn-debug.log
+
+# Configurações de IDE
+.vscode/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dados de teste / cobertura
+/coverage
