@@ -53,8 +53,8 @@ O servidor será iniciado na porta `3000`.
 
 |                        Endpoint                            |    Método    |                                                                 Descrição                                                                                  |
 |------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     `http://localhost:3000/api/v1/transactions/recent`     |    GET       |      **Endpoint Otimizado**: Busca transações recentes, simulando um "cache hit" para demonstrar tempos de resposta ultrarrápidos (idealmente < 1ms).      |
-|    `http://localhost:3000/api/v1/transactions/slow-mock`   |    GET       |      **Endpoint de Comparação**: Simula uma consulta lenta de banco de dados (500ms de latência) para demonstrar a importância da otimização.              |
+|     `http://localhost:3000/api/v1/transactions/recent`     |    `GET`       |      **Endpoint Otimizado**: Busca transações recentes, simulando um "cache hit" para demonstrar tempos de resposta ultrarrápidos (idealmente < 1ms).      |
+|    `http://localhost:3000/api/v1/transactions/slow-mock`   |    `GET`       |      **Endpoint de Comparação**: Simula uma consulta lenta de banco de dados (500ms de latência) para demonstrar a importância da otimização.              |
 
 ## Valor Adicionado ao Portfólio
 
