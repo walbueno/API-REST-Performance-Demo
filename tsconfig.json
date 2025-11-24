@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Opções Básicas */
+    // Define a versão do ECMAScript para o código de saída
+    "target": "ES2020", 
+    // Define o sistema de módulos (Node.js usa CommonJS)
+    "module": "CommonJS", 
+    // Define o diretório onde o JavaScript compilado será salvo
+    "outDir": "./dist", 
+    // Define o diretório raiz para os arquivos TypeScript
+    "rootDir": "./", 
+    
+    /* Opções de Tipagem e Rigor */
+    // Habilita todas as verificações rigorosas de tipos (melhor prática)
+    "strict": true, 
+    // Trata 'null' e 'undefined' de forma mais rigorosa
+    "strictNullChecks": true, 
+    // Garante que a capitalização dos nomes dos arquivos seja consistente
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Módulos e Resolução */
+    // Permite que módulos importados via CommonJS sejam tratados como módulos ES
+    "esModuleInterop": true, 
+    // Garante que os caminhos de módulos sejam resolvidos corretamente
+    "moduleResolution": "node",
+    
+    /* Outros */
+    // Inclui a definição de tipos do Node.js globalmente
+    "types": ["node", "express"], 
+    // Pula a verificação de tipo para todos os arquivos de definição (.d.ts)
+    "skipLibCheck": true 
+  },
+  "include": [
+    "server.ts",
+    "src/**/*.ts" // Caso você adicione mais arquivos em uma pasta 'src'
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
